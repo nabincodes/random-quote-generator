@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- META INFORMATION -->
     <meta charset="UTF-8">
@@ -8,32 +9,57 @@
     <meta name="author" content="Nabin Jaiswal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- END OF META INFORMATION -->    
+    <!-- END OF META INFORMATION -->
 
     <title>Random Quote Generator</title>
 
     <!-- BOOTSTRAP CDN-->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
 
     <!-- FONTAWESOME CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
 
     <!-- GOOGLE FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
 
-    
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 title">
+                <h1>Random Quote Generator</h1>
+            </div>
+            <div class="col-md-8 quoteArea">
+                <p id="randomQuote"></p>
+            </div>
+
+            <div class="col-md-4 buttons">
+                <a href="#" class="btn btn-info" target="_blank" id="tweetMe" role="button"> <i class="fa fa-twitter"></i> &nbsp; Tweet Me</a>
+
+                <a href="#" class="btn btn-info" id="newQuote" role="button"> <i class="fa fa-quote-left"></i> &nbsp;New Quote</a>
+            </div>
+
+            <div class="col-md-12 creator">by
+                <a href="https://codepen.io/nabinjaiswal/" target="_blank">nabinjaiswal</a>
+            </div>
+        </div>
+    </div>
+
+
     <!-- JQUERY CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- BOOTSTRAP JAVASCRIPT -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
 
     <!-- CUSTOM JAVASCRIPT -->
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
